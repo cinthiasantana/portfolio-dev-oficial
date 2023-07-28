@@ -1,0 +1,79 @@
+.section-title-contact {
+    text-align: center;
+    line-height: 80px;
+}
+
+.description-main-contact {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.content-contact {
+    display: flex;
+    padding: 60px 0;
+}
+
+.cards-contacts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact {
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    border-radius: .5rem;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-contact {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 90%;
+}
+
+form div label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+form .input {
+    border: 1px solid white;
+    
+}
+
+form div input,
+form div textarea {
+    width: 80%;
+    height: 40px;
+    border-radius: .5rem;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 1rem;
+    outline: none;
+    padding-left: 10px;
+}
+
+form div textarea {
+    height: 80px;
+    padding-top: 10px;
+}
+
+form button {
+    background-color: rebeccapurple;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: .5rem;
+}
