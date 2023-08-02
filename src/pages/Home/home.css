@@ -1,0 +1,97 @@
+
+/* GERAL*/
+
+#services .section-title,
+#skills .section-title{
+    text-align: center;
+    display: block;
+    line-height: 40px;
+}
+
+
+/* SECTION HERO */
+
+#hero{
+    height: 100vh;
+    display: flex;
+}
+
+#hero .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+#hero .content .btn-cta {
+    display: flex;
+}
+
+#hero .avatar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .avatar img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* SECTION ABOUT*/
+
+.container-about{
+    height: 100vh;
+    display: flex;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.content .btn-cta {
+    display: flex;
+}
+
+.content button {
+    margin-right: 1rem;
+}
+
+.avatar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.details-about {
+    margin: 0 auto;
+    display: grid;
+    gap: 10px 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* SECTION SERVICES*/
+
+#services{
+    padding: 180px 0 ;
+}
+
+/* SECTION ABOUT*/
+
+/* SECTION ABOUT*/

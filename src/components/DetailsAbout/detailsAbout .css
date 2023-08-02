@@ -1,0 +1,13 @@
+
+.container-aboutDetails {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.description {
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    border-radius: 1rem;
+    padding: 20px;
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

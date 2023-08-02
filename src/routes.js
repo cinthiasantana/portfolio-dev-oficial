@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import AllProjects from './pages/AllProjects';
+import DetailsProject from './pages/DetailsProject';
 
 function RoutesApp() {
     return (
@@ -12,6 +13,7 @@ function RoutesApp() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projetos" element={<AllProjects />} />
+                <Route path="/detalhes-projeto/:id" element={<DetailsProject />} />
             </Routes>
             <Contact />
             <Footer />

@@ -64,15 +64,10 @@ function Skills() {
       description: "Desenvolvimento de funcionalidades interativas e dinâmicas para sites, visando proporcionar uma experiência de usuário envolvente.",
       icon: <DiGit />
     },
-    
   ]
 
   return (
     <div className="container-skills">
-      <div className='section-title'>
-        <h2 className='title-main-skills'> Habilidades Técnicas </h2>
-        <h3 className='description-main-skills'>Principais ferramentas e tecnologias com quais trabalho e possuo conhecimentos</h3>
-      </div>
       <div className='content-skills'>
         {
           skills.map((skill, index) => (

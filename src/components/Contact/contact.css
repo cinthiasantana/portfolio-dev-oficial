@@ -17,7 +17,7 @@
 .cards-contacts {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 320px);
     gap: 20px;
 }
 
@@ -39,24 +39,24 @@
 
 form {
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-form div label {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+form div{
+    min-width: 90%;
+}
+
+form div label{
+    display: block;
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: bold;
 }
 
-form .input {
-    border: 1px solid white;
-    
-}
-
-form div input,
-form div textarea {
-    width: 80%;
+form div input, form div textarea {
+    width: 100%;
     height: 40px;
     border-radius: .5rem;
     background-color: transparent;
@@ -66,14 +66,17 @@ form div textarea {
     padding-left: 10px;
 }
 
+form button {
+    background-color: rebeccapurple;
+    padding: 10px 60px;
+    border: 0;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+} 
+
 form div textarea {
     height: 80px;
     padding-top: 10px;
-}
-
-form button {
-    background-color: rebeccapurple;
-    padding: 10px 30px;
-    border: 0;
-    border-radius: .5rem;
+    font-size: 1rem;
 }

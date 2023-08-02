@@ -1,0 +1,9 @@
+
+.container-buttonAction .button {
+    background-color:rebeccapurple;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,10 @@
+
+.container-buttonSecondary .buttonSecondary {
+    border: 1px solid rebeccapurple;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: rebeccapurple;
+    background-color: transparent;
+}

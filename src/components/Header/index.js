@@ -7,7 +7,7 @@ function Header() {
       <Link className='logo' to="/">CinthiaSantana</Link>
       <nav>
         <Link className='home' to="/">Home</Link>
-        <Link className='home' to="/sobre">Sobre</Link>
+        <a href="#sobre" className='home'>Sobre</a>
         <Link className='home' to="/skills">Skills</Link>
         <Link className='home' to="/projetos">Projetos</Link>
         <Link className='home' to="/contato">Contato</Link>

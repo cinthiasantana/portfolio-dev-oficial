@@ -1,6 +1,6 @@
 import './contact.css';
 import { Link } from 'react-router-dom'
-import { FaGithub, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone } from "react-icons/fa";
 
 function Contact() {
 
@@ -12,12 +12,20 @@ function Contact() {
   ]
 
   return (
-    <div className="container-contact">
+    <div id='contato' className="container-contact">
       <div className='section-title-contact'>
         <h2 className='title-main-contact'>Entre em contato comigo!</h2>
         <h3 className='description-main-contact'>Sinta-se à vontade para entrar em contato comigo para discutir suas ideias, esclarecer dúvidas ou solicitar um orçamento personalizado. Estou disponível para reuniões presenciais ou virtuais, de acordo com a sua conveniência.</h3>
       </div>
       <div className='content-contact'>
+        <div className='cards-contacts'>
+          {contacts.map((contacts, index) => (
+            <div className='contact' key={`contacts-${index}`}>
+              <h3 className='title-contact'>{contacts.icon} {contacts.title}</h3>
+              <p className='description-contact'>{contacts.description}</p>
+            </div>
+          ))}
+        </div>
         <form method="post">
           <div>
             <label for="nome">Nome:</label>
@@ -29,19 +37,10 @@ function Contact() {
           </div>
           <div>
             <label for="msg">Sua Mensagem:</label>
-            <textarea id="msg"></textarea>
+            <textarea id="msg" type='text'></textarea>
           </div>
           <button><Link to='./'>Enviar</Link></button>
         </form>
-
-        <div className='cards-contacts'>
-          {contacts.map((contacts, index) => (
-            <div className='contact' key={`contacts-${index}`}>
-              <h3 className='title-contact'>{contacts.icon} {contacts.title}</h3>
-              <p className='description-contact'>{contacts.description}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );

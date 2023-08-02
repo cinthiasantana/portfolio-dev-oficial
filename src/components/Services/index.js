@@ -23,22 +23,16 @@ function Services() {
   ]
 
   return (
-    <div className="container-services">
-      <div className='section-title'>
-        <h2 className='title-main-services'> Meus Serviços </h2>
-        <h3 className='description-main-services'>Conheça os serviços personalizados que ofereço como programadora</h3>
-      </div>
-      <div className='content-services'>
-        {
-          services.map((service, index) => (
-            <div className='service' key={`services-${index}`}>
-              <div className='icon-service'>{service.icon}</div>
-              <h3 className='title-service'>{service.title}</h3>
-              <p className='description-service'>{service.description}</p>
-            </div>
-          ))
-        }
-      </div>
+    <div className='content-services'>
+      {
+        services.map((service, index) => (
+          <div className='service' key={`services-${index}`}>
+            <div className='icon-service'>{service.icon}</div>
+            <h3 className='title-service'>{service.title}</h3>
+            <p className='description-service'>{service.description}</p>
+          </div>
+        ))
+      }
     </div>
   );
 }

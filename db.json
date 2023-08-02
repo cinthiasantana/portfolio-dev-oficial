@@ -1,0 +1,122 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Site de Galeria",
+      "description": "Projetos de site desenvolvido para mostrar uma galeria de projetos.",
+      "imagePresentation": "https://s3.amazonaws.com/wpfiap/wp-content/uploads/2021/01/shutterstock_1467043322.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Site Institucional Moderno",
+      "description": "Site institucional com estilização moderna para apresentar uma empresa.",
+      "imagePresentation": "https://s3.amazonaws.com/wpfiap/wp-content/uploads/2021/01/shutterstock_1467043322.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Dashboard de Sistema",
+      "description": "Nova descricao em breve",
+      "imagePresentation": "https://s3.amazonaws.com/wpfiap/wp-content/uploads/2021/01/shutterstock_1467043322.jpg"
+    },
+    {
+      "id": 4,
+      "title": "To Do List",
+      "description": "Este site representa uma lista de tarefas que permite adicionar e excluir.",
+      "imagePresentation": "https://s3.amazonaws.com/wpfiap/wp-content/uploads/2021/01/shutterstock_1467043322.jpg"
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "title": "Site Institucional Moderno",
+      "description": "O site institucional da Empresa XYZ foi concebido como um hub central para nossos clientes, parceiros e visitantes. Com um design contemporâneo e foco na usabilidade, a plataforma foi desenvolvida para transmitir nossa identidade de marca e fornecer informações detalhadas sobre o que fazemos e o que defendemos.",
+      "objective": "Fornecer uma plataforma atraente e informativa que reflita nossa identidade como empresa inovadora e de confiança. Além disso, buscamos alcançar um maior alcance de público e atrair novos clientes em potencial por meio de uma presença online marcante.",
+      "iconsTechnologies": [
+        {
+          "name": "React",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+        },
+        {
+          "name": "Html",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+        },
+        {
+          "name": "Css",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+        },
+        {
+          "name": "Java Script",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        }
+      ],
+      "site": "www.site-institucional-moderno.com.br",
+      "features": [
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+          "title": "Primeiro Recurso",
+          "description": "1- Se adapta perfeitamente a todos os dispositivos, incluindo desktops, tablets e smartphones, proporcionando uma experiência consistente em qualquer plataforma."
+        },
+        {
+          "icon": "imgs/icon1.svg",
+          "title": "Segundo Recurso",
+          "description": "2- Se adapta perfeitamente a todos os dispositivos, incluindo desktops, tablets e smartphones, proporcionando uma experiência consistente em qualquer plataforma."
+        },
+        {
+          "icon": "",
+          "title": "Terceiro Recurso",
+          "description": "3- Se adapta perfeitamente a todos os dispositivos, incluindo desktops, tablets e smartphones, proporcionando uma experiência consistente em qualquer plataforma."
+        },
+        {
+          "icon": "",
+          "title": "Quarto Recurso",
+          "description": "4- Se adapta perfeitamente a todos os dispositivos, incluindo desktops, tablets e smartphones, proporcionando uma experiência consistente em qualquer plataforma."
+        }
+      ],
+      "moreAbout": "Durante o desenvolvimento, enfrentamos desafios técnicos, especialmente ao integrar o sistema com o banco de dados e garantir a segurança dos dados dos usuários. \n No entanto, com uma equipe dedicada e testes rigorosos, superamos esses obstáculos com sucesso. \n No entanto, com uma equipe dedicada e testes rigorosos, superamos esses obstáculos com sucesso.",
+      "instructions": [
+        {
+          "number": 1,
+          "title": "Acesse o site ",
+          "description": "através do URL: www.empresaxyz.com"
+        },
+        {
+          "number": 2,
+          "title": "Crie uma conta",
+          "description": "ou faça login usando suas credenciais existentes."
+        },
+        {
+          "number": 3,
+          "title": "Navegue pelo menu",
+          "description": "Para conhecer nossos serviços, projetos e blog"
+        },
+        {
+          "number": 4,
+          "title": "Clique nos projetos em destaque",
+          "description": "Para visualizar imagens e detalhes sobre cada trabalho."
+        },
+        {
+          "number": 5,
+          "title": "Na página principal",
+          "description": "Clique no botão Adicionar Tarefa para criar uma nova tarefa"
+        },
+        {
+          "number": 6,
+          "title": "Preencha os campos obrigatórios.",
+          "description": "Como título e data de vencimento, e clique em salvar."
+        }
+      ],
+      "imageMain": [
+        {
+          "image": "https://s3.amazonaws.com/wpfiap/wp-content/uploads/2021/01/shutterstock_1467043322.jpg"
+        }
+      ],
+      "imageSecondary": [
+        {
+          "image": "https://s3.amazonaws.com/wpfiap/wp-content/uploads/2021/01/shutterstock_1467043322.jpg"
+        }
+      ],
+      "gitHub": "github.com/cinthiasantana/portfolio-dev-oficial",
+      "projectId": 1
+    }
+  ]
+}

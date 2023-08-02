@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   font-family: sans-serif;
-  background-image: linear-gradient(to top, #040203, #140011, #1a001d, #18032c, #010a3d);
+  background-color: #121214;
 }
 
 .app {
